@@ -1,0 +1,73 @@
+PHP : 
+    File Permission
+        -> Read
+        -> Write
+        -> Execute
+
+
+
+----------------------------
+Chmode(filename, mode)
+    -> work only Linux / Unix / Mac OS
+
+
+
+----------------------------
+fileperms(filename, mode)
+fileperms = file permission
+    -> work properly with Linux / Unix / Mac OS
+
+
+
+-------------------------------
+
++-------------+-----------+-----------+-----------+
+|             |   User    |   Group   |   World   |
++-------------+-----------+-----------+-----------+
+|  Read(r)    |   Yes     |   Yes     |   Yes     |
++-------------+-----------+-----------+-----------+
+|  Write(w)   |   Yes     |   Yes     |    No     |
++-------------+-----------+-----------+-----------+
+|  Execute(x) |   Yes     |    No     |    No     |
++-------------+-----------+-----------+-----------+
+                  rwx          rw-         r--
+                   |            |           |
+                    ------------------------
+                        Symbolic Notation
+
+
+
+
+--------------------------------------------------------------
+                      Convert
+Symbolic Notation -----------------> Octal Notation
+
+Note : Symbolic Notation থেকে যখন Octal Notation এ Convert করবে তখন সেটা integer এ রুপ নিবে।
+
++-----+     +-----+
+|  r  | =   |  4  |     <- Read
++-----+     +-----+
+|  w  | =   |  2  |     <- Write
++-----+     +-----+
+|  x  | =   |  1  |     <- Execute
++-----+     +-----+
+|  -  | =   |  0  |     <- No Permission
++-----+     +-----+
+
+
+
+
+
+--------------------------------------------------------------
+Symbolic Notation ----------> Octal Notation    [calculation]
+
++-------+     +-----+
+|  rwx  | =   |  7  |   <- User
++-------+     +-----+
+|  rw   | =   |  6  |   <- Group
++-------+     +-----+
+|  r    | =   |  4  |   <- World           = 4
++-------+     +-----+
+
+
+Octal Notation = 764
