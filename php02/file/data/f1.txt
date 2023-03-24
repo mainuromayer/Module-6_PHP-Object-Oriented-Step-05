@@ -7,3 +7,6 @@ Earth
 Mercury
 Venus
 Earth
+Mercury
+Venus
+Earth
