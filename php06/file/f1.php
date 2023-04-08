@@ -85,6 +85,13 @@ fclose($fp); */
     'roll'  => 17,
 );
 
+
+// $fp = fopen($filename, 'a');
+// $data = sprintf("%s,%s,%s,%s,%s\n", $student['fname'], $student['lname'], $student['age'], $student['class'], $student['roll']);
+//     fwrite($fp, $data);
+// fclose($fp);
+
+
 $fp = fopen($filename, 'a');
 fputcsv($fp, $student);
 fclose($fp); */
@@ -98,7 +105,7 @@ fclose($fp); */
 # আগের ডাটা থেকে একটা array remove করব -
 $data = file($filename);
 print_r($data); // data কি অবস্থানে আছে তা দেখতে পারি
-unset($data[1]);
+unset($data[0]);
 
 $fp = fopen($filename, 'w');
 foreach($data as $line){
