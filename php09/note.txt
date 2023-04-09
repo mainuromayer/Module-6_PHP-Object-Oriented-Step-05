@@ -1,0 +1,7 @@
+php তে session হল একটা storage system.
+
+ - session এ কিভাবে data store করা যায়
+ - session এর data এর উপর বেস করে কিভাবে ডিসিশন নেয়া যায়
+ - session এর data গুলোকে কিভাবে modify করা যায়
+ - session এর data গুলোকে কিভাবে delete করা যায়
+ - একটা session কে কিভাবে destroy করা যায়
