@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738d159d-e3df-48cd-aed3-a92bcd87d21d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/php10/session2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php10/session1.php" beforeDir="false" afterPath="$PROJECT_DIR$/php10/session1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php11/session/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +30,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/PHP &amp; Laravel(Ostad)/Pre Recorded Work/Module-6_PHP-Object-Oriented-Step-05/php10&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/PHP &amp; Laravel(Ostad)/practice/Crud-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\omaye\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -56,6 +56,12 @@
       <updated>1681029804928</updated>
       <workItem from="1681029805486" duration="2988000" />
       <workItem from="1681046978356" duration="3344000" />
+      <workItem from="1681053807091" duration="8335000" />
+      <workItem from="1681062337195" duration="831000" />
+      <workItem from="1681108803558" duration="5114000" />
+      <workItem from="1681123739809" duration="2273000" />
+      <workItem from="1681144847757" duration="3767000" />
+      <workItem from="1681180681912" duration="85000" />
     </task>
     <servers />
   </component>
